@@ -57,6 +57,11 @@ libraryDependencies += "com.github.lahiru04" % "custoast" % "Tag"
 
 ## Usage
 
+Using this you can set a image and text size for the toast
+---
+      CusToast.makeText(MainActivity.this,"Sample Toast",CusToast.LENGTH_SHORT,R.drawable.xcon,14).show();
+          
+---
 
 ## Contributions
 
