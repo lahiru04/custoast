@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 
 /**
- * Created by Lahiru Prasanna on 12/20/2016.
+ * Created by Lahiru Prasanna 
  */
 
 public class CusToast extends Toast {
