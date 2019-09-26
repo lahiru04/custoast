@@ -55,6 +55,9 @@ libraryDependencies += "com.github.lahiru04" % "custoast" % "Tag"
 
 ```
 
+## Usage
+
+
 ## Contributions
 
 *   ⇄ Pull/Merge requests and ★ Stars are always welcome.
