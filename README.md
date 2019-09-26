@@ -4,7 +4,7 @@
 
 <p align="center">
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="License: MIT"></a>
-<a href="https://jitpack.io/#lahiru04/syncprogressdialog"><img src="https://jitpack.io/v/lahiru04/syncprogressdialog.svg" alt="JitPack Build: Passing"></a>
+<a href="https://jitpack.io/#lahiru04/syncprogressdialog"><img src="https://jitpack.io/v/lahiru04/custoast.svg" alt="JitPack Build: Passing"></a>
 </p>
 
 ---
