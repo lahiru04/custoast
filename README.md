@@ -23,7 +23,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.lahiru04:custoast:Tag'
+     implementation 'com.github.lahiru04:custoast:v1.0.0'
 }
 
 ```
