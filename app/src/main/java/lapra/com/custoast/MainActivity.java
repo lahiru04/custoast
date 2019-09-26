@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                CusToast.makeText(MainActivity.this,"Sample Toast",CusToast.LENGTH_SHORT,R.drawable.xcon).show();
+                CusToast.makeText(MainActivity.this,"Sample Toast",CusToast.LENGTH_SHORT,R.drawable.xcon,14).show();
+             //   CusToast.makeText(MainActivity.this,"Sample Toast",CusToast.LENGTH_SHORT).show();
 
             }
         });
