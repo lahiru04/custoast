@@ -79,4 +79,24 @@ public class CusToast extends Toast {
         return toast;
     }
 
+
+    public static Toast makeText(Context context, CharSequence text, int duration,float textSize) {
+        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View view = inflater.inflate(R.layout.custom_toast, null);
+
+        TextView textView = (TextView) view.findViewById(R.id.text);
+        textView.setTextSize(TypedValue.COMPLEX_UNIT_SP,textSize);
+        textView.setText(text);
+
+        ImageView imageView = (ImageView) view.findViewById(R.id.imageView);
+        imageView.setVisibility(View.GONE);
+
+
+        Toast toast = new Toast(context);
+        toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
+        toast.setDuration(duration);
+        toast.setView(view);
+        return toast;
+    }
+
 }
