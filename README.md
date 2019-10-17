@@ -9,7 +9,7 @@
 
 ---
 
-Simple Library To Customize Toast.
+A Library To Customize Toast.
 
 ## Installation
 
